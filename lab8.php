@@ -71,7 +71,7 @@
                                 <?php if($originalUnit == "farenheit") echo ' selected="selected"';?>>
                                 Farenheit</option>
                             <option value="kelvin" <?php if($originalUnit == "kelvin") echo ' selected="selected"';?>>
-                                Kelvin
+                                Kelvin			
                             </option>
                         </select>
                     </div>
@@ -109,14 +109,14 @@
         <div class="row">
             <div class="card col-md-6 col-xs-12 bg-warning p-5">
 
-
-                <h3>Celsius conversion formulas</h3>
+				<h3 class="mb-2">Conversion Formulas</h3>
+                <h4>Celsius conversion formulas</h4>
                 <p>Celsius to Fahrenheit = T(°C) × 9/5 + 32 <br>
                     Celsius to Kelvin = T(°C) + 273.15</p>
-                <h3>Fahrenheit conversion formulas</h3>
+                <h4>Fahrenheit conversion formulas</h4>
                 <p>Fahrenheit to Celsius = (T(°F) - 32) × 5/9<br>
                     Fahrenheit to Kelvin = (T(°F) + 459.67)× 5/9</p>
-                <h3>Kelvin conversion formulas</h3>
+                <h4>Kelvin conversion formulas</h4>
                 <p>Kelvin to Fahrenheit = T(K) × 9/5 - 459.67 <br>
                     Kelvin to Celsius = T(K) - 273.15</p>
             </div>
